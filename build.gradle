@@ -17,7 +17,11 @@ sourceCompatibility = 17
 // project version
 version = '1.0'
 // War file name
-war.baseName = 'jcg-gradle-war-example'
+war {
+
+    baseName = 'jcg-gradle-war-example'
+}
+
 // Web directory, this overrides the default value "webapp"
 project.webAppDirName = 'WebContent'
 
