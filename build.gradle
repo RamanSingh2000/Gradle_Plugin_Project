@@ -16,10 +16,10 @@ mainClassName = 'com.javacodegeeks.war'
 // JDK version source compatibility
 
 
-java {
-sourceCompatibility = 1.8
+
+sourceCompatibility = 1.7
     
-}
+
 
 
 version = '1.0'
