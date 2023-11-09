@@ -14,8 +14,14 @@ apply plugin: 'com.bmuschko.tomcat'
 mainClassName = 'com.javacodegeeks.war'
 
 // JDK version source compatibility
+
+
+java {
 sourceCompatibility = 1.8
-// project version
+    
+}
+
+
 version = '1.0'
 // War file name
 // war {
