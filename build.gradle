@@ -13,14 +13,14 @@ apply plugin: 'war'
 apply plugin: 'com.bmuschko.tomcat'
 
 // JDK version source compatibility
-sourceCompatibility = 17
+// sourceCompatibility = 17
 // project version
 version = '1.0'
 // War file name
-war {
+// war {
 
-    baseName = 'jcg-gradle-war-example'
-}
+//     baseName = 'jcg-gradle-war-example'
+// }
 
 // Web directory, this overrides the default value "webapp"
 project.webAppDirName = 'WebContent'
